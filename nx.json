@@ -7,5 +7,12 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "flight-app": {
+      "tags": []
+    },
+    "flight-app-e2e": {
+      "tags": []
+    }
+  }
 }

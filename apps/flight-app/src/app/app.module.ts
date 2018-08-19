@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
-import { configureLegacyApp, upgradedComponents } from '../legacy-app-setup';
+import { configureLegacyApp, upgradedComponents } from '../legacyApp-setup';
 import { UpgradeModule } from '@angular/upgrade/static';
 
 @NgModule({

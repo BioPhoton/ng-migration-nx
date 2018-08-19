@@ -23,9 +23,11 @@ import {PassengerService} from './services/passenger.service';
 import tabs from './tabs/tabs.module';
 import {PassengerCardComponent} from "./passenger-search/passenger-card.component";
 import {FlightSearchComponent} from './flight-search/flight-search.component';
+import {appRoutes} from './app.routes';
 
 
 export const app = angular.module('legacyApp', ['ngMessages', 'ui.router', tabs]);
+app.config(appRoutes);
 
 app.service('flightService', FlightService);
 app.service('passengerService', PassengerService);

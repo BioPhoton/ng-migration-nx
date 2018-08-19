@@ -23,7 +23,8 @@
               "apps/flight-app/src/assets"
             ],
             "styles": [
-              "apps/flight-app/src/styles.css"
+              "apps/flight-app/src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },

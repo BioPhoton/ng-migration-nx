@@ -6,10 +6,10 @@ import {
   UpgradeModule
 } from '@angular/upgrade/static';
 
-import * as angular from 'angular'; // replace with const angular = (<any>window).angular; if Angular is available globally
+import * as angular from 'angular';// replace with const angular = (<any>window).angular; if Angular is available globally
 
 // import 'legacyApp';
-import {app} from './app/legacy-app/app';
+import {app} from './legacy-app/index';
 const legacyApp = app;
 
 if (!angular.module('legacyApp')) {
